@@ -1,0 +1,61 @@
+#main {
+    position: fixed;
+    z-index: 3;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    background: transparent;
+    top: 20%;
+    left:35%;
+    right: 35%;
+    bottom: auto
+    ;
+}
+
+body {
+	background: linear-gradient(90deg, white, #2eacd4);
+	color: darkmagenta;
+}
+
+#countDownTimer {
+	font-weight: bold;
+	font-size: large;
+}
+
+#loginTitleStyle {
+	color: teal;
+}
+
+.blinking {
+	animation: opacity 4s ease-in-out infinite;
+	opacity: 1;
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.button{
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	border-radius: 12px;
+	border-color: lightblue;
+}
+
+.lgButton{
+	width: 200px;
+	height: 30px;
+	background-color: white;
+	border-radius: 12px;
+	border-color: lightblue;
+}
