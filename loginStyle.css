@@ -1,6 +1,7 @@
 body {
 	background: linear-gradient(270deg, red, rebeccapurple);
 	color: yellow;
+	font-family: 'Space Mono', monospace;
 }
 
 #countDownTimer {

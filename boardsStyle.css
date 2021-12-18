@@ -1,20 +1,7 @@
-#main {
-    position: fixed;
-    z-index: 3;
-    font-family: 'Space Mono', monospace;
-    color: white;
-    background: transparent;
-    top: 20%;
-    left:35%;
-    right: 35%;
-    bottom: auto
-    ;
-}
-
 body {
 	background: linear-gradient(90deg, white, #2eacd4);
 	color: darkmagenta;
-	font-family: 'Space Mono', monospace;
+    font-family: 'Space Mono', monospace;
 }
 
 #countDownTimer {
@@ -80,14 +67,13 @@ footer{
 
 nav{
 	line-height: 30px;
-	height: 95%;
+	height: 2000px;
 	width: 150px;
 	padding: 5px;
 	float: left;
 }
 
 #indexImage{
-	align-content: center;
 	width: 80%;
 	height: auto;
 }

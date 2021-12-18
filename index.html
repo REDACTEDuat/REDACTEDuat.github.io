@@ -9,15 +9,35 @@
     <script src="code.js"></script>
     <title>Welcome to Sam Roethemeyer's Website</title>
   </head>
+
   <body>
-    <center>
+    <header>
       <h1>Welcome to Sam R.'s Website</h1>
       <h3>Please feel free to look around!</h3>
-    </center>
-    <img src="CyberMeme.png" />
+    </header>
+    <nav>
+      <a href="./index.html">Home</a><br />
+      <a href="./boards.html">Boards</a><br />
+      <a href="./login.html">UAT Space Page</a><br />
+    </nav>
+    <main>
+      <img id="indexImage" src="CyberMeme.png" />
+      <br />
+      <br />
+      <button class="lgButton" onclick="goLogin();">Go to UATSpace</button>
+      <button class="lgButton" onclick="goBoards();">Go to Boards Page</button>
+    </main>
+    <br />
+    <br />
+    <footer>
+      Sam Roetheneyer<br />
+      Network Security student at University of Advancing Technology<br />
+      Tempe, AZ 85283<br />
+      <a
+        href="mailto:samroeth@uat.edu?Subject=Hello%20from%20Sam's%20webpage"
+        target="top"
+        >Email Sam</a
+      >
+    </footer>
   </body>
-  <br />
-  <br />
-  <button class="lgButton" onclick="goLogin();">Go to UATSpace</button>
-  <button class="lgButton" onclick="goBoards();">Go to Boards Page</button>
 </html>
